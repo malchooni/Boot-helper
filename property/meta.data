@@ -1,0 +1,4 @@
+# Meta Data Set
+CLASSNAME.EXE.MAIN      =
+PATH.PROPERTY.ROOT      = ../property
+PATH.LIB.ROOT           = ../lib
