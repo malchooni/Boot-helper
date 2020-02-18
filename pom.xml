@@ -6,7 +6,7 @@
 
     <groupId>name.yalsooni</groupId>
     <artifactId>boot-helper</artifactId>
-    <version>1.0</version>
+    <version>1.0.1</version>
 
     <build>
         <plugins>
@@ -28,5 +28,16 @@
         </plugins>
     </build>
 
-    
+    <distributionManagement>
+        <repository>
+            <id>release</id>
+            <url>git@github.com:yalsooni/yalsooni-maven-repo.git/master/releases</url>
+        </repository>
+
+        <snapshotRepository>
+            <id>snapshot</id>
+            <url>git@github.com:yalsooni/yalsooni-maven-repo.git/master/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
 </project>
